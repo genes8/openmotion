@@ -26,17 +26,20 @@ silent. Audio is intentionally absent; add a music bed only when your brief asks
   ink arrows (top-left solid, bottom-right dashed) and a serif corner note.
 - Device: one morphing frame, dark `#1B2026`, radius 40 (portrait) → 26 (wide), which grows
   230 × 440 → 660 × 370 around the canvas center. The fold line shows during the unfold.
-- Portrait screen: wordmark header with feather, serif session title, mascot bird, status pill,
-  mic pill and a secondary "Type a reply" line.
+- Portrait screen: wordmark header with feather, serif session title, mascot orb in the sleeping
+  state (matching the "Wake me up" status), status pill, mic pill and a secondary
+  "Type a reply" line.
 - Wide screen: left pane (37%, pale blue) with eyebrow, serif title, category chips and five
-  topic rows (one selected with a copper ring); right pane with the mascot, conversation bubbles
+  topic rows (one selected with a copper ring); right pane with the mascot orb in the
+  speaking state (open beak), conversation bubbles
   (alternating white / ink), italic serif translation lines, a word chip with recall dots, a
   typing indicator and a reply field with a copper mic.
 - Phrase stage: full-bleed Newsreader serif, 62 px, centered, plain ink.
 - Tent stage: two dark panels leaning ±7° from their bottom edge, copper gradient edge lights,
   serif clock, session title, "Listening" pill, live conversation title, waveform bars in the
   copper gradient, transport buttons and a timecode.
-- Brand stage: solid accent background, spark, white mascot bird, serif wordmark with the spark
+- Brand stage: solid accent background, spark, white mascot orb in the idle state, serif
+  wordmark with the spark
   as the dot of the i, italic serif tagline, domain line.
 - Typography: Newsreader (serif, weights 400/500/600 plus italic 400) and Schibsted Grotesk
   (sans, weights 400–700). The bundled subsets cover Latin and Latin-ext only; other scripts
@@ -48,7 +51,7 @@ silent. Audio is intentionally absent; add a music bed only when your brief asks
 | --- | --- | --- |
 | 0.00–1.70 s | Portrait device rises | Enter from below the canvas, `expo.out`; screen elements stagger in. |
 | 2.50–4.40 s | Unfold to two panes | Width and height morph with `power3.inOut`; portrait screen blurs out, fold line flashes, wide screen blurs in. |
-| 4.50–7.50 s | List and conversation act | Chips and rows stagger; bubbles enter with 4 px blur, translations follow each bubble; the bird bobs once when it "speaks"; typing indicator closes the beat. |
+| 4.50–7.50 s | List and conversation act | Chips and rows stagger; bubbles enter with 4 px blur, translations follow each bubble; the orb bobs once when it speaks; typing indicator closes the beat. |
 | 7.85–8.05 s | Device exits | Blur out with a slight scale-down; the phrase stage covers the frame. |
 | 8.18–10.30 s | Full-bleed phrase | One serif line blurs in, holds at least 2 s, blurs out. |
 | 10.45–11.70 s | Fold back, state kept | The wide device returns and folds to portrait; the conversation state stays on the screen. |
@@ -85,7 +88,7 @@ acceptance.
 - The motion structure is an independent adaptation of the public Granola reference "An
   unfolding device changes the note layout" (source: <https://x.com/meetgranola/status/2113631820277592536>,
   catalog reference V138). No Granola footage, screenshots, logos or audio are included.
-- The sample content — name, mascot bird, wordmark spark, palette, screens and copy — is the
+- The sample content — name, mascot orb, wordmark spark, palette, screens and copy — is the
   contributor's own product (Snowi by Safe4ai) and is included as replaceable sample content.
 - Fonts: Newsreader and Schibsted Grotesk, SIL Open Font License 1.1; the license files ship
   beside the subset TTF files in `assets/fonts/`. GSAP is bundled under its own MIT license.

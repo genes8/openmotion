@@ -72,18 +72,18 @@
     },
     {
       "path": "assets/lfs/preview.webm",
-      "bytes": 69430,
-      "sha256": "a2e4721df4590a235c361523199c9076d487067da66419233a6b526fe3c8ef11"
+      "bytes": 68145,
+      "sha256": "788b0a617e7bb2121c158a423e47fe1a411e24af60058176554f7795704b861a"
     },
     {
       "path": "assets/poster.jpg",
-      "bytes": 7447,
-      "sha256": "9a11e5bb10268b1ea37fc135e0519efffc4815ddaf9d9faa90561b689fc67d0f"
+      "bytes": 7202,
+      "sha256": "059304fd3871d8e507943578d2aa91b9c509113ee1ad1f9795fd26047832abd3"
     },
     {
       "path": "compositions/film.html",
-      "bytes": 35770,
-      "sha256": "7a4000ee4ff354844a2df6d21dbf182f41de4b24542a9e8006c1be09623b41be"
+      "bytes": 31365,
+      "sha256": "c989e245053b9fb0a7919d951e5f42c4ab5a0edadab66fc8a01692c90b787573"
     },
     {
       "path": "hyperframes.json",
@@ -97,13 +97,13 @@
     },
     {
       "path": "motion.md",
-      "bytes": 6701,
-      "sha256": "0ae25fa6743994cbfa657451d004c321138801e12ee2506fd9012352924adfd3"
+      "bytes": 6814,
+      "sha256": "cb9bfadf7e6cb32e3ff9285f0c0c27ca7cfcf260badb336729792b2a49f5248c"
     },
     {
       "path": "preview.html",
-      "bytes": 38950,
-      "sha256": "6bdadd1b26a621b91bed59c487197ff6d6d66befe9d83aec9511ce8c7ed139a1"
+      "bytes": 34545,
+      "sha256": "e50b2c3c6af41613133982147818d4725a823b29a265884503556805e28af2ee"
     }
   ]
 }

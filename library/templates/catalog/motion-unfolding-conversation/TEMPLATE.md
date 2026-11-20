@@ -4,7 +4,7 @@ A 17-second product-launch motion recipe: a portrait phone rises into the frame,
 unfolds into a two-pane layout (topic list on the left, live conversation on the right), closes
 on a full-bleed serif phrase, folds back with the conversation kept, shows the folded device
 recording a live voice waveform, and ends on a solid brand page with the wordmark, spark and
-mascot.
+orb mascot.
 
 ## Use this template
 
@@ -41,7 +41,7 @@ native-Studio template-copy verification remain open, as for all catalog contrib
 - Motion structure: an independent adaptation of the public Granola reference "An unfolding
   device changes the note layout" ([original post](https://x.com/meetgranola/status/2113631820277592536),
   catalog reference V138). No Granola footage, screenshots, logos, fonts or audio are included.
-- Sample content: name, mascot bird, wordmark spark, palette, screens and copy belong to the
+- Sample content: name, orb mascot (brand v1.2), wordmark spark, palette, screens and copy belong to the
   contributor's own product (Snowi by Safe4ai) and are included as replaceable sample content.
 - Fonts: Newsreader and Schibsted Grotesk under the SIL Open Font License 1.1, shipped as
   Latin/Latin-ext static subsets beside their license files in `source/assets/fonts/`.

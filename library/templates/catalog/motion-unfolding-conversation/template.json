@@ -38,8 +38,8 @@
       {
         "path": "compositions/film.html",
         "mimeType": "text/html",
-        "bytes": 35770,
-        "sha256": "7a4000ee4ff354844a2df6d21dbf182f41de4b24542a9e8006c1be09623b41be"
+        "bytes": 31365,
+        "sha256": "c989e245053b9fb0a7919d951e5f42c4ab5a0edadab66fc8a01692c90b787573"
       },
       {
         "path": "assets/gsap.min.js",

@@ -18,7 +18,6 @@
   --cool:#8FA7BB; --copper:#A8714A; --copper2:#C98A5E; --spark1:#E8B381; --line:#E1E8EE;
   --sand:#F2E1D0; --moss:#DCE5DC;}
 #root *{box-sizing:border-box}
-.bb-beak-open{opacity:0}
 .serif{font-family:"Newsreader",Georgia,serif}
 
 /* ---------- layers ---------- */
@@ -52,7 +51,7 @@
 .pt-head .fw{width:13px;height:22px;transform:rotate(8deg)}
 .pt-head .bw{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:17px;letter-spacing:-.2px;position:relative;line-height:1}
 .pt-title{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:21px;letter-spacing:-.3px;text-align:center;margin-top:14px;line-height:1.15}
-.pt-bird{width:128px;height:124px;margin-top:10px}
+.pt-bird{width:126px;height:126px;margin-top:12px}
 .pt-status{margin-top:6px;font-size:12.5px;color:#56626D;display:flex;align-items:center;gap:6px}
 .pt-status .dot{width:7px;height:7px;border-radius:50%;background:#A8714A}
 .pt-spacer{flex:1}
@@ -82,7 +81,7 @@
 .trow.sel{border:1.5px solid #A8714A}
 .wr{flex:1;display:flex;flex-direction:column;padding:16px 14px 12px;border-radius:0 0 24px 0;position:relative}
 .wr-head{display:flex;align-items:center;gap:8px}
-.wr-bird{width:46px;height:44px;flex:none}
+.wr-bird{width:48px;height:48px;flex:none}
 .wr-ht{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:16px;letter-spacing:-.2px}
 .wr-hs{font-size:10.5px;color:#56626D;margin-top:1px;display:flex;align-items:center;gap:5px}
 .wr-hs .dot{width:6px;height:6px;border-radius:50%;background:#A8714A}
@@ -131,7 +130,7 @@
 
 /* brand stage */
 #brand{position:absolute;inset:0;z-index:5;background:#A8714A;opacity:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
-#brand .bird{width:172px;height:166px;margin-bottom:6px}
+#brand .bird{width:174px;height:174px;margin-bottom:8px}
 #brandSpark{width:30px;height:30px;margin-bottom:-8px;position:relative;z-index:2}
 #brandWord{font-family:"Newsreader",Georgia,serif;font-weight:600;font-size:78px;letter-spacing:-1px;color:#1E252C;line-height:1;position:relative}
 #brandWord .sparkdot{position:absolute;top:-16px;right:-4px;width:22px;height:22px}
@@ -142,141 +141,69 @@
 
 <div data-hf-id="hf-root" id="root" data-composition-id="film" data-width="720" data-height="900">
 
-  <svg data-hf-id="hf-bird-defs" width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
-    <clipPath id="bcp0">
-<path d="M-0.2 -78.0 Q8.0 -86.0 14.4 -75.5 Q23.8 -79.3 28.0 -67.3 Q35.2 -68.7 35.8 -58.0 Q42.9 -56.8 41.0 -45.0 Q46.6 -42.2 43.3 -32.4 Q49.3 -31.0 46.5 -24.2 Q53.8 -21.4 54.3 -15.4 Q63.2 -11.5 63.8 -5.4 Q72.1 0.9 71.1 7.8 Q76.3 14.0 73.7 19.1 Q79.3 29.1 72.6 35.1 Q74.4 44.2 67.2 48.2 Q66.2 60.0 55.1 62.7 Q51.9 71.0 43.0 71.2 Q40.4 79.6 32.0 76.3 Q24.1 85.0 12.7 81.1 Q5.5 85.2 -2.3 82.0 Q-9.5 85.6 -15.8 80.7 Q-24.9 85.0 -30.4 76.9 Q-38.6 78.8 -42.3 71.6 Q-52.3 73.0 -54.4 63.3 Q-64.2 60.2 -66.2 49.8 Q-72.4 46.1 -71.8 38.1 Q-78.5 32.4 -74.0 22.5 Q-78.8 16.1 -71.0 7.7 Q-72.4 1.6 -64.7 -4.2 Q-63.3 -10.8 -54.4 -15.3 Q-54.3 -20.9 -47.1 -23.2 Q-50.0 -31.5 -43.0 -33.9 Q-46.2 -43.0 -41.0 -45.1 Q-41.1 -54.9 -35.5 -58.4 Q-33.3 -67.5 -26.6 -68.5 Q-22.1 -79.1 -13.4 -75.8 Q-7.5 -83.8 -0.2 -78.0 Z">
-</path>
-</clipPath>
-    <symbol id="snowiBird" viewBox="0 0 280 270">
+  <svg data-hf-id="hf-orb-defs" width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
 
-<g class="bb-shhop">
-<ellipse class="bb-shadow" cx="140" cy="225" rx="58" ry="5.5" fill="#D3E1EC">
-</ellipse>
-</g>
-<g transform="translate(140 136) scale(.9)">
-<g class="bb-hop">
-<g class="bb-turn">
-<g class="bb-idle">
-<g class="bb-tail">
-<path d="M14 48 C36 66 60 84 98 102 L92 110 C58 94 32 78 6 62 Z" fill="#232831">
-</path>
-<path d="M6 62 C32 78 58 94 92 110" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round">
-</path>
-</g>
-<path d="M-18 74V96M18 74V96" stroke="#2B3138" stroke-width="3" stroke-linecap="round">
-</path>
-<path d="M-18 96L-27 99M-18 96L-20 101M-18 96L-11 100M18 96L27 99M18 96L20 101M18 96L11 100" stroke="#2B3138" stroke-width="2.4" stroke-linecap="round">
-</path>
-<g class="bb-body">
-<path d="M-0.8 -85.0 Q8.4 -89.1 15.7 -82.1 Q25.0 -82.9 28.8 -74.3 Q37.9 -71.5 38.7 -61.9 Q45.7 -57.6 43.1 -49.7 Q48.7 -42.1 43.5 -35.8 Q46.0 -28.7 38.7 -24.8 Q38.3 -16.7 29.0 -15.4 Q24.4 -7.6 14.3 -8.8 Q8.5 -4.3 1.3 -7.0 Q-7.8 -2.7 -15.2 -9.1 Q-23.5 -8.0 -27.5 -14.5 Q-36.6 -15.7 -37.7 -23.5 Q-45.0 -27.6 -43.3 -34.9 Q-47.7 -41.5 -43.1 -49.8 Q-44.4 -58.1 -37.9 -63.3 Q-37.0 -71.1 -29.6 -73.6 Q-24.9 -81.4 -15.8 -82.1 Q-9.4 -88.8 -0.8 -85.0 Z" fill="#2E353C">
-</path>
-<g>
-<g class="bb-flick bb-flick-l" style="--s:1">
-<g class="bb-wing bb-wing-l">
-<path d="M-58 -6 C-80 0 -92 28 -90 54 C-88 70 -80 82 -68 90 C-60 72 -56 42 -56 14 Z" fill="#2E353C">
-</path>
-<path d="M-60 -4 C-73 1 -82 11 -85 23 C-76 19 -67 17 -57 19 Z" fill="#D3A27C">
-</path>
-<path d="M-89 44 C-86 62 -79 76 -69 84" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round">
-</path>
-<path d="M-82 30 C-79 46 -74 60 -66 70" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" opacity=".8">
-</path>
-</g>
-</g>
-<g class="bb-flick bb-flick-r" style="--s:-1">
-<g class="bb-wing bb-wing-r">
-<path d="M 58 -6 C 80 0 92 28 90 54 C 88 70 80 82 68 90 C 60 72 56 42 56 14 Z" fill="#2E353C">
-</path>
-<path d="M 60 -4 C 73 1 82 11 85 23 C 76 19 67 17 57 19 Z" fill="#D3A27C">
-</path>
-<path d="M 89 44 C 86 62 79 76 69 84" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round">
-</path>
-<path d="M 82 30 C 79 46 74 60 66 70" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" opacity=".8">
-</path>
-</g>
-</g>
-</g>
-<path d="M-0.2 -78.0 Q8.0 -86.0 14.4 -75.5 Q23.8 -79.3 28.0 -67.3 Q35.2 -68.7 35.8 -58.0 Q42.9 -56.8 41.0 -45.0 Q46.6 -42.2 43.3 -32.4 Q49.3 -31.0 46.5 -24.2 Q53.8 -21.4 54.3 -15.4 Q63.2 -11.5 63.8 -5.4 Q72.1 0.9 71.1 7.8 Q76.3 14.0 73.7 19.1 Q79.3 29.1 72.6 35.1 Q74.4 44.2 67.2 48.2 Q66.2 60.0 55.1 62.7 Q51.9 71.0 43.0 71.2 Q40.4 79.6 32.0 76.3 Q24.1 85.0 12.7 81.1 Q5.5 85.2 -2.3 82.0 Q-9.5 85.6 -15.8 80.7 Q-24.9 85.0 -30.4 76.9 Q-38.6 78.8 -42.3 71.6 Q-52.3 73.0 -54.4 63.3 Q-64.2 60.2 -66.2 49.8 Q-72.4 46.1 -71.8 38.1 Q-78.5 32.4 -74.0 22.5 Q-78.8 16.1 -71.0 7.7 Q-72.4 1.6 -64.7 -4.2 Q-63.3 -10.8 -54.4 -15.3 Q-54.3 -20.9 -47.1 -23.2 Q-50.0 -31.5 -43.0 -33.9 Q-46.2 -43.0 -41.0 -45.1 Q-41.1 -54.9 -35.5 -58.4 Q-33.3 -67.5 -26.6 -68.5 Q-22.1 -79.1 -13.4 -75.8 Q-7.5 -83.8 -0.2 -78.0 Z" fill="#E3ECF5">
-</path>
-<g clip-path="url(#bcp0)">
-<path d="M-5.1 -80.5 Q2.4 -84.8 8.8 -78.0 Q15.8 -78.6 20.2 -71.3 Q26.1 -71.3 27.5 -63.1 Q32.1 -59.9 32.7 -51.8 Q36.2 -47.0 35.1 -38.8 Q40.3 -36.7 38.3 -30.3 Q45.0 -27.2 46.4 -21.6 Q54.1 -18.1 54.5 -12.8 Q62.0 -7.4 60.8 -1.5 Q66.5 5.7 63.7 11.8 Q66.8 20.4 62.1 26.2 Q62.4 33.2 57.4 37.1 Q56.2 46.4 47.5 49.2 Q45.5 57.3 37.1 57.0 Q31.4 65.6 21.0 64.3 Q17.2 69.7 11.0 66.8 Q2.7 71.4 -6.5 68.2 Q-12.1 71.5 -17.1 67.4 Q-26.6 69.9 -33.6 63.4 Q-41.3 64.8 -45.1 58.2 Q-53.0 56.6 -57.0 49.7 Q-65.0 45.9 -67.4 37.1 Q-72.7 34.3 -71.7 27.6 Q-76.9 22.2 -73.8 13.6 Q-77.2 5.6 -69.9 -3.6 Q-71.0 -8.8 -64.0 -13.5 Q-63.0 -18.1 -56.6 -21.3 Q-55.8 -27.8 -48.0 -31.0 Q-49.2 -37.1 -44.9 -39.8 Q-47.0 -46.4 -43.5 -48.3 Q-43.5 -57.6 -38.5 -61.6 Q-36.7 -69.7 -30.9 -70.7 Q-26.5 -79.0 -18.9 -78.0 Q-12.7 -85.2 -5.1 -80.5 Z" fill="#FFFFFF">
-</path>
-</g>
-<path d="M-0.2 -78.0 Q8.0 -86.0 14.4 -75.5 Q23.8 -79.3 28.0 -67.3 Q35.2 -68.7 35.8 -58.0 Q42.9 -56.8 41.0 -45.0 Q46.6 -42.2 43.3 -32.4 Q49.3 -31.0 46.5 -24.2 Q53.8 -21.4 54.3 -15.4 Q63.2 -11.5 63.8 -5.4 Q72.1 0.9 71.1 7.8 Q76.3 14.0 73.7 19.1 Q79.3 29.1 72.6 35.1 Q74.4 44.2 67.2 48.2 Q66.2 60.0 55.1 62.7 Q51.9 71.0 43.0 71.2 Q40.4 79.6 32.0 76.3 Q24.1 85.0 12.7 81.1 Q5.5 85.2 -2.3 82.0 Q-9.5 85.6 -15.8 80.7 Q-24.9 85.0 -30.4 76.9 Q-38.6 78.8 -42.3 71.6 Q-52.3 73.0 -54.4 63.3 Q-64.2 60.2 -66.2 49.8 Q-72.4 46.1 -71.8 38.1 Q-78.5 32.4 -74.0 22.5 Q-78.8 16.1 -71.0 7.7 Q-72.4 1.6 -64.7 -4.2 Q-63.3 -10.8 -54.4 -15.3 Q-54.3 -20.9 -47.1 -23.2 Q-50.0 -31.5 -43.0 -33.9 Q-46.2 -43.0 -41.0 -45.1 Q-41.1 -54.9 -35.5 -58.4 Q-33.3 -67.5 -26.6 -68.5 Q-22.1 -79.1 -13.4 -75.8 Q-7.5 -83.8 -0.2 -78.0 Z" fill="none" stroke="#C9D8E6" stroke-width="1.8" stroke-linejoin="round">
-</path>
-<g fill="none" stroke="#D3E1EC" stroke-width="1.8" stroke-linecap="round">
-<path d="M-40 52q5 6 11 6">
-</path>
-<path d="M30 56q5 0 10 -6">
-</path>
-<path d="M-12 70q6 4 12 2">
-</path>
-<path d="M12 64q5 3 10 1">
-</path>
-<path d="M-54 30q3 6 8 9">
-</path>
-<path d="M-28 -2q6 4 12 3">
-</path>
-<path d="M17 0q6 0 11 -4">
-</path>
-</g>
-<g>
-<g class="bb-gaze">
-<ellipse cx="-27" cy="-27" rx="5.5" ry="3.2" fill="#F2C9B0" opacity=".55">
-</ellipse>
-<ellipse cx="27" cy="-27" rx="5.5" ry="3.2" fill="#F2C9B0" opacity=".55">
-</ellipse>
-<g>
-<g class="bb-lid" fill="none" stroke="#1E252C" stroke-width="3" stroke-linecap="round">
-<path d="M-24 -38 Q-18 -33 -12 -38">
-</path>
-<path d="M12 -38 Q18 -33 24 -38">
-</path>
-</g>
-<g class="bb-blink">
-<g transform="translate(-18 -40)">
-<g class="bb-eye">
-<ellipse rx="6.2" ry="6.8" fill="#1E252C">
-</ellipse>
-<circle cx="2" cy="-2.3" r="2" fill="#FFFFFF">
-</circle>
-<circle cx="-1.9" cy="2.3" r=".9" fill="#FFFFFF">
-</circle>
-</g>
-</g>
-<g transform="translate(18 -40)">
-<g class="bb-eye">
-<ellipse rx="6.2" ry="6.8" fill="#1E252C">
-</ellipse>
-<circle cx="2" cy="-2.3" r="2" fill="#FFFFFF">
-</circle>
-<circle cx="-1.9" cy="2.3" r=".9" fill="#FFFFFF">
-</circle>
-</g>
-</g>
-</g>
-</g>
-<g class="bb-beak-closed">
-<path d="M-4.6 -33 Q0 -36 4.6 -33 L0 -25 Z" fill="#2B3138">
-</path>
-</g>
-<g class="bb-beak-open">
-<path d="M-3.4 -29 Q0 -30 3.4 -29 L3.2 -24 Q0 -22 -3.2 -24 Z" fill="#8A4338">
-</path>
-<g class="bb-jaw">
-<path d="M-3.8 -27 Q0 -19 3.8 -27 Q0 -28 -3.8 -27 Z" fill="#2B3138">
-</path>
-</g>
-<path d="M-4.6 -33 Q0 -36 4.6 -33 L0 -28 Z" fill="#2B3138">
-</path>
-</g>
-</g>
-</g>
-</g>
-</g>
-</g>
-</g>
-</g>
+    <radialGradient id="orbHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="40%" stop-color="#9FB8CF" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#9FB8CF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#9FB8CF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbSphere" cx="40%" cy="34%" r="70%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="55%" stop-color="#F3F7FA"/>
+      <stop offset="100%" stop-color="#D9E3EC"/>
+    </radialGradient>
+  
+    <symbol id="orb-sleeping" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="92" fill="url(#orbHalo)" opacity="0.12"/>
+  <g>
+    <g>
+      <circle cx="100" cy="100" r="56" fill="url(#orbSphere)"/>
+      <g>
+        <path d="M81 98 Q87 102 93 98 M107 98 Q113 102 119 98" fill="none" stroke="#1E252C" stroke-width="2.6" stroke-linecap="round"/>
+        <path d="M96.5 108 Q100 107 103.5 108 L100.6 112.4 Q100 113.2 99.4 112.4 Z" fill="#C8956B" transform="translate(100 110) scale(0.8) translate(-100 -110)"/>
+      </g>
+    </g>
+  </g>
+</symbol>
+    <symbol id="orb-listening" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="92" fill="url(#orbHalo)" opacity="0.60"/>
+  <g transform="translate(100 100) scale(1.05) translate(-100 -100)">
+    <g>
+      <circle cx="100" cy="100" r="56" fill="url(#orbSphere)"/>
+      <g transform="translate(0 -2)">
+        <ellipse cx="87" cy="96" rx="5.2" ry="7" fill="#1E252C" transform="translate(87 96) scale(1.15 1.2) translate(-87 -96)"/>
+        <ellipse cx="113" cy="96" rx="5.2" ry="7" fill="#1E252C" transform="translate(113 96) scale(1.15 1.2) translate(-113 -96)"/>
+        <path d="M96.5 108 Q100 107 103.5 108 L100.6 112.4 Q100 113.2 99.4 112.4 Z" fill="#C8956B"/>
+      </g>
+    </g>
+  </g>
+</symbol>
+    <symbol id="orb-speaking" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="92" fill="url(#orbHalo)" opacity="0.52" transform="translate(100 100) scale(1.09) translate(-100 -100)"/>
+  <g>
+    <g transform="translate(100 100) scale(1.05) translate(-100 -100)">
+      <circle cx="100" cy="100" r="56" fill="url(#orbSphere)"/>
+      <g>
+        <ellipse cx="87" cy="96" rx="5.2" ry="7" fill="#1E252C"/>
+        <ellipse cx="113" cy="96" rx="5.2" ry="7" fill="#1E252C"/>
+        <path d="M96.5 108 Q100 107 103.5 108 L100.6 112.4 Q100 113.2 99.4 112.4 Z" fill="#C8956B" transform="translate(100 110) scale(1 1.7) translate(0 1) translate(-100 -110)"/>
+      </g>
+    </g>
+  </g>
+</symbol>
+    <symbol id="orb-idle" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="92" fill="url(#orbHalo)" opacity="0.35"/>
+  <g>
+    <g>
+      <circle cx="100" cy="100" r="56" fill="url(#orbSphere)"/>
+      <g>
+        <ellipse cx="87" cy="96" rx="5.2" ry="7" fill="#1E252C"/>
+        <ellipse cx="113" cy="96" rx="5.2" ry="7" fill="#1E252C"/>
+        <path d="M96.5 108 Q100 107 103.5 108 L100.6 112.4 Q100 113.2 99.4 112.4 Z" fill="#C8956B"/>
+      </g>
+    </g>
+  </g>
 </symbol>
     <linearGradient id="sparkGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#E8B381"/><stop offset="1" stop-color="#A8714A"/>
@@ -311,7 +238,7 @@
           </div>
           <div class="pt-chip" id="ptChip">Translation · English</div>
           <div class="pt-title serif" id="ptTitle" data-var-text="learnTitle">Speak Serbian with Snowi</div>
-          <svg class="pt-bird" id="ptBird" viewBox="0 0 280 270"><use href="#snowiBird"/></svg>
+          <svg class="pt-bird" id="ptBird" viewBox="0 0 200 200"><use href="#orb-sleeping"/></svg>
           <div class="pt-status" id="ptStatus"><span class="dot"></span><span>Wake me up</span></div>
           <div class="pt-spacer"></div>
           <div class="pt-mic" id="ptMic">Tap to speak</div>
@@ -331,7 +258,7 @@
           </div>
           <div class="wr">
             <div class="wr-head" id="wrHead">
-              <svg class="wr-bird" id="wrBird" viewBox="0 0 280 270"><use href="#snowiBird"/></svg>
+              <svg class="wr-bird" id="wrBird" viewBox="0 0 200 200"><use href="#orb-speaking"/></svg>
               <div><div class="wr-ht" id="wrTitle">Naručivanje kafe</div><div class="wr-hs" id="wrStatus"><span class="dot"></span>Listening…</div></div>
             </div>
             <div class="conv2">
@@ -356,7 +283,7 @@
             <svg class="fw" viewBox="0 0 100 170"><path d="M66 8 C42 22 22 80 23.44 136.24 C39.66 91.46 54.24 48.32 66 8 Z" fill="#FFFFFF" stroke="#8FA7BB" stroke-width="2.4"/><path d="M66 8 C86 40 74 100 23.44 136.24 C39.66 91.46 54.24 48.32 66 8 Z" fill="#CFDDEA" stroke="#8FA7BB" stroke-width="2.4"/><path d="M66 8 C52 56 34 108 14 162" fill="none" stroke="#8FA7BB" stroke-width="1.6" stroke-linecap="round"/><path d="M67 6 L56 19 Q58 22 63 23 L72 14 Q73 8 67 6 Z" fill="#3A4652"/></svg>
             <span class="bw">Snowi</span>
           </div>
-          <svg style="width:74px;height:71px;margin-top:4px" id="p2Bird" viewBox="0 0 280 270"><use href="#snowiBird"/></svg>
+          <svg style="width:78px;height:78px;margin-top:4px" id="p2Bird" viewBox="0 0 200 200"><use href="#orb-listening"/></svg>
           <div class="pt-status"><span class="dot"></span>Listening…</div>
           <div class="pt-spacer"></div>
           <div class="pt-mic">Tap to speak</div>
@@ -403,7 +330,7 @@
   <!-- brand stage -->
   <div data-hf-id="hf-brand" id="brand" class="clip" data-start="13.6" data-duration="3.42" data-track-index="5">
     <svg data-hf-id="hf-brandspark" id="brandSpark" viewBox="0 0 24 24"><path d="M12 1 C12.9 7.6 16.4 11.1 23 12 C16.4 12.9 12.9 16.4 12 23 C11.1 16.4 7.6 12.9 1 12 C7.6 11.1 11.1 7.6 12 1 Z" fill="url(#sparkGrad)"/></svg>
-    <svg data-hf-id="hf-brandbird" class="bird" id="brandBird" viewBox="0 0 280 270"><use href="#snowiBird"/></svg>
+    <svg data-hf-id="hf-brandbird" class="bird" id="brandBird" viewBox="0 0 200 200"><use href="#orb-idle"/></svg>
     <div data-hf-id="hf-brandword" id="brandWord"><span data-var-text="brandName">Snowi</span><svg class="sparkdot" id="wordSpark" viewBox="0 0 24 24"><path d="M12 1 C12.9 7.6 16.4 11.1 23 12 C16.4 12.9 12.9 16.4 12 23 C11.1 16.4 7.6 12.9 1 12 C7.6 11.1 11.1 7.6 12 1 Z" fill="url(#sparkGrad)"/></svg></div>
     <div data-hf-id="hf-brandtag" id="film-brandtag" data-var-text="tagline">Learn a language by talking.</div>
     <div data-hf-id="hf-branddomain" id="brandDomain">snowi.site</div>
